@@ -1,0 +1,157 @@
+.home {
+  background-image: url("../../assets/home/background-home-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 387px 11.4583vw 14.5556vh;
+}
+
+.content-wrapper {
+  max-width: 450px;
+  min-height: 382px;
+}
+
+.content-wrapper h5 {
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  color: #d0d6f9;
+  padding-left: 0.5px;
+}
+
+.content-wrapper h1 {
+  font-family: Bellefair;
+  font-size: 150px;
+  line-height: 172px;
+  padding: 24px 5px 24px 0;
+}
+
+.content-wrapper p {
+  font-family: Barlow;
+  font-size: 18px;
+  line-height: 178%;
+  color: #d0d6f9;
+  padding: 0 5.5px 0 0.5px;
+}
+
+.button-wrapper {
+  width: max-content;
+  height: max-content;
+}
+
+.button-wrapper .link {
+  text-decoration: none;
+}
+
+.button-wrapper button {
+  width: 274px;
+  height: 274px;
+  border: 0;
+  border-radius: 50%;
+  font-family: Bellefair;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 2px;
+  transition: box-shadow 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.button-wrapper button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0 88px rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 1100px) {
+  .home {
+    background-image: url("../../assets/home/background-home-tablet.jpg");
+    min-height: 1024px;
+  }
+
+  .main-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin: 202px 159px 90px;
+  }
+
+  .content-wrapper {
+    text-align: center;
+    max-height: 334px;
+    min-height: 0;
+    margin-bottom: 156px;
+  }
+
+  .content-wrapper h5 {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+  }
+
+  .content-wrapper h1 {
+    line-height: 150px;
+  }
+
+  .content-wrapper p {
+    padding: 0 3px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .button-wrapper button {
+    width: 242px;
+    height: 242px;
+  }
+}
+
+@media (max-width: 560px) {
+  .home {
+    background-image: url("../../assets/home/background-home-mobile.jpg");
+    min-height: 667px;
+  }
+
+  .main-wrapper {
+    margin: 112px 24px 46px;
+  }
+
+  .content-wrapper {
+    max-width: 327px;
+    max-height: 276px;
+    margin-bottom: 81px;
+  }
+
+  .content-wrapper h5 {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    padding-left: 0;
+  }
+
+  .content-wrapper h1 {
+    font-size: 80px;
+    line-height: 125%;
+    padding: 16px 0;
+  }
+
+  .content-wrapper p {
+    padding: 0;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .button-wrapper button {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.25px;
+  }
+
+  .button-wrapper button:hover {
+    box-shadow: 0 0 0 68px rgba(255, 255, 255, 0.1);
+  }
+}
