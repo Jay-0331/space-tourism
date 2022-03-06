@@ -43,6 +43,7 @@
 }
 
 .tech-nav button {
+  cursor: pointer;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -54,6 +55,11 @@
   border: 1px solid rgba(255, 255, 255, 0.5);
   background-color: transparent;
   margin-right: 80px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.tech-nav button:hover {
+  border: 2px solid rgba(255, 255, 255, 1);
 }
 
 .tech-nav .active {
