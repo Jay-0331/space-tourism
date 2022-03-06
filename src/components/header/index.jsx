@@ -64,7 +64,7 @@ const Header = ({location}) => {
                     <Link className={`nav-link ${isActive === 0 ? 'active' : ""}`} to='/'><span><span>00</span>HOME</span><div className='hover'/></Link>
                     <Link className={`nav-link ${isActive === 1 ? 'active' : ""}`} to='/destination'><span><span>01</span>DESTINATION</span><div className='hover'/></Link>
                     <Link className={`nav-link ${isActive === 2 ? 'active' : ""}`} to='/crew'><span><span>02</span>CREW</span><div className='hover'/></Link>
-                    <Link className={`nav-link ${isActive === 3 ? 'active' : ""}`} to='/technologies'><span><span>03</span>TECHNOLOGIES</span><div className='hover'/></Link>
+                    <Link className={`nav-link ${isActive === 3 ? 'active' : ""}`} to='/technologies'><span><span>03</span>TECHNOLOGY</span><div className='hover'/></Link>
                 </div>
 
                 {/* mobile navbar */}
@@ -74,7 +74,7 @@ const Header = ({location}) => {
                     <Link className={`mobile-nav-link ${isActive === 0 ? 'active' : ""}`} to='/'><span><span>00</span>HOME</span><div className='hover'/></Link>
                     <Link className={`mobile-nav-link ${isActive === 1 ? 'active' : ""}`} to='/destination'><span><span>01</span>DESTINATION</span><div className='hover'/></Link>
                     <Link className={`mobile-nav-link ${isActive === 2 ? 'active' : ""}`} to='/crew'><span><span>02</span>CREW</span><div className='hover'/></Link>
-                    <Link className={`mobile-nav-link ${isActive === 3 ? 'active' : ""}`} to='/technologies'><span><span>03</span>TECHNOLOGIES</span><div className='hover'/></Link>
+                    <Link className={`mobile-nav-link ${isActive === 3 ? 'active' : ""}`} to='/technologies'><span><span>03</span>TECHNOLOGY</span><div className='hover'/></Link>
                 </div>
             </nav>
         </header>
